@@ -29,8 +29,8 @@ This configuration setting looks for a value set in the following env variable: 
 This value should map to one of the drivers configured for your asset disk containers.
 
 ### Disks
-The package looks under this key for key/value pairs where the key maps over to a configured Statamic asset
-container. The value for any defined key should be an array of disk configurations for each desired disk driver.
+The package looks under this key for key/value pairs where the **key** maps over to a configured Statamic asset
+container. The **value** for any defined key should be an array of disk configurations for each desired disk driver.
 
 For example, let's say you have an image asset container called **images** and you want to have two configurations. It would look something
 like this:
