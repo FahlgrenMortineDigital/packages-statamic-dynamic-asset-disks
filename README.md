@@ -9,11 +9,11 @@ S3 connection for your staging environment. This package allows for that.
 ## Installation
 
 ```bash
-composer install fahlgrendigital/packages-statamic-dynamic-asset-disks
+composer require fahlgrendigital/packages-statamic-dynamic-asset-disks
 ```
 
 ```bash
-php artisan vendor:publish --provider=DynamicAssetDisksServiceProvider
+php artisan vendor:publish --provider=FahlgrendigitalPackages\\StatamicDynamicAssetDisks\\DynamicAssetDisksServiceProvider
 ```
 
 This will copy the `dynamic-asset-disks` configuration file to your application's configuration directory.
