@@ -1,0 +1,38 @@
+{
+    "name": "fahlgrenmortinedigital/packages-statamic-dynamic-asset-disks",
+    "description": "Per-disk configurations for statamic asset containers",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FahlgrendigitalPackages\\StatamicDynamicAssetDisks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew Clinton",
+            "email": "andrew.clinton@fahlgren.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0",
+        "statamic/cms": "^4.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FahlgrendigitalPackages\\StatamicDynamicAssetDisks\\DynamicAssetDisksServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
