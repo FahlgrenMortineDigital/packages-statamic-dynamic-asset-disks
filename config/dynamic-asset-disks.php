@@ -11,7 +11,7 @@ return [
       |
      */
 
-    'disk_driver' => env('{STATAMIC_ASSET_DISK_DRIVER}', 'local'),
+    'disk_driver' => env('STATAMIC_ASSET_DISK_DRIVER', 'local'),
 
     /*
       |--------------------------------------------------------------------------
