@@ -1,5 +1,5 @@
 {
-    "name": "fahlgrenmortinedigital/packages-statamic-dynamic-asset-disks",
+    "name": "fahlgrendigital/packages-statamic-dynamic-asset-disks",
     "description": "Per-disk configurations for statamic asset containers",
     "type": "library",
     "autoload": {
