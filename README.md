@@ -9,7 +9,7 @@ S3 connection for your staging environment. This package allows for that.
 ## Installation
 
 ```bash
-composer install fahlgrenmortinedigital/packages-statamic-dynamic-asset-disks
+composer install fahlgrendigital/packages-statamic-dynamic-asset-disks
 ```
 
 ```bash
