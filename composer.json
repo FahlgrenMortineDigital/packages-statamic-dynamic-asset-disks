@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/support": "^10.0",
-        "statamic/cms": "^4.0"
+        "illuminate/support": "^11.0",
+        "statamic/cms": "^5.0"
     },
     "config": {
         "allow-plugins": {
